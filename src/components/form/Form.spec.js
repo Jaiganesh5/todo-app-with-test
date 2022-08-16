@@ -43,6 +43,5 @@ describe("check the functionality of the form",()=>{
         expect(inputValue.value).toBe("");
        
     });
-    
-    
+
 })

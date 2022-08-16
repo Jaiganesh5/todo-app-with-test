@@ -14,12 +14,10 @@ describe("check the filter button is to be rendered correctly",()=>{
     it("check the filter button is  aria-pressed",()=>{
 
         render(<FilterButton name = "all" isPressed = {true}/>);
-        const filterButton = screen.getByTestId("filter-btn");
+        const filterButton = screen.getByTestId("all");
         expect(filterButton.getAttribute('aria-pressed')).toBeTruthy();
     });
-
-
-   
+ 
 })
 
 

@@ -68,6 +68,7 @@ function App(props) {
         <FilterButton
           key={name}
           name={name}
+          data-testid = {name}
           isPressed={name === filter}
           setFilter={setFilter}
         />

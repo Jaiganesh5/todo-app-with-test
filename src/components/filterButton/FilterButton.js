@@ -8,7 +8,7 @@ function FilterButton(props) {
       className="btn toggle-btn"
       aria-pressed={props.isPressed}
       onClick={() => props.setFilter(props.name)}
-      data-testid = "filter-btn"
+      data-testid = {props.name}
     >
       <span>{props.name}</span>
     </button>
